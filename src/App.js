@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Main from './components/response';
 import './App.css';
 
