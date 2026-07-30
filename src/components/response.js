@@ -120,7 +120,7 @@ function Main() {
                 <button 
                     onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))} 
                     disabled={currentPage === totalPages}>
-                    <img src="/direita.png"></img>
+                    <img src="/direita.png" alt="imagem"></img>
                 </button>
                 
             </div>
