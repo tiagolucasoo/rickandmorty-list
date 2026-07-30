@@ -104,7 +104,7 @@ function Main() {
                 <button 
                     onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))} 
                     disabled={currentPage === 1}>
-                    <img src="/esquerda.png"></img>
+                    <img src="/esquerda.png" alt="imagem"></img>
                 </button>
 
                 {getPageNumbers().map(page => (
